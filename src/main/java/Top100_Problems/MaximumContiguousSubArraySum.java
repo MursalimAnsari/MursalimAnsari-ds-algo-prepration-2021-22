@@ -27,13 +27,12 @@ public class MaximumContiguousSubArraySum {
 //        printAllSubArrays(arr);
 //        int answer = maxContiguousSubArraySumUsingTwoLoops(arr);
 //        System.out.println(answer);
-//
-//        int res = maxContiguousSubArrayWithKadaneAlgorithm(arr);
-//        System.out.println(res);
 
+        int res = maxContiguousSubArrayWithKadaneAlgorithm(arr);
+        System.out.println(res);
 
+        System.out.println( maximumSubArraySumUsingDivideAndConquer(arr,0,arr.length-1));
     }
-
 
 
 
@@ -93,7 +92,6 @@ public class MaximumContiguousSubArraySum {
     }
 
     // using kadane's algorithm
-
     private static int maxContiguousSubArrayWithKadaneAlgorithm(int[] arr) {
         // initialize a variable local curr_sum and assign 0 to it.
         // initialize max_sum and assign 0 to it.
@@ -105,17 +103,62 @@ public class MaximumContiguousSubArraySum {
         int curr_sum=0;
         int max_sum=Integer.MIN_VALUE;
 
-        for(int i=0;i<n;i++){
-            curr_sum += arr[i];
-            if(curr_sum<0){
-                curr_sum=0;
+        for (int value : arr) {
+            curr_sum += value;
+            if (curr_sum < 0) {
+                curr_sum = 0;
             }
 
-            max_sum = Math.max(curr_sum,max_sum);
+            max_sum = Math.max(curr_sum, max_sum);
         }
         return  max_sum;
     }
 
+    // Now we can use Divide and conquer technique to solve this problem
+    // base case: left==right return arr[left]
+    // otherwise break the array int left sub array and right sub array
+
+
+    private static int maximumSubArraySumUsingDivideAndConquer(int[] arr, int start, int end) {
+
+      if(start==end)
+        return arr[start];
+
+       int mid = (end+start)/2;
+
+       int left = maximumSubArraySumUsingDivideAndConquer(arr,start,mid);
+       int right = maximumSubArraySumUsingDivideAndConquer(arr,mid+1, end);
+       int ans = Math.max(left, right);
+       return Math.max(ans, maxCrossingSum(arr,start,mid,end));
+
+    }
+
+    private static int maxCrossingSum(int[] arr, int left, int mid, int right) {
+
+        int sum=0;
+        //left half calculations
+        int left_sum= Integer.MIN_VALUE;
+
+        for(int i= mid; i>=left;i--) {
+              sum = sum+arr[i];
+               if(sum>left_sum)
+                left_sum =sum;
+             }
+
+
+        //right half calculations
+        sum=0;
+        int right_sum = Integer.MIN_VALUE;
+        for(int i =mid+1;i<=right;i++) {
+            sum+=arr[i];
+            if(sum>right_sum)
+                right_sum =sum;
+        }
+
+        return Math.max(left_sum + right_sum,
+                Math.max(left_sum, right_sum));
+
+    }
 
 
 }
