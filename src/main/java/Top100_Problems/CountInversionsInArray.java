@@ -1,4 +1,4 @@
-package Top100Problems;
+package Top100_Problems;
 /*
    Problem Statement: Given an array of integers. Find the Inversion Count in the array.
 
@@ -101,7 +101,7 @@ public class CountInversionsInArray {
                 } else{
                  // to check if arr[left]>middle+1 element then all elements present right to
                  // arr[i] are greater than middle+1
-                inversion+= mid-left;
+                 inversion+= mid-left;
                 sortedArray.add(arr[right]);
                 right++;
              }
