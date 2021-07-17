@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.fixed;
 
 /*
 *   SubArray: Part of array which is contiguous
@@ -14,6 +14,7 @@ package SlidingWindow;
 *
 *   1st Approach :  use two nested loops and find maximum sum of sub array of size k
 *   2nd Approach : we can optimize this using sliding window technique
+*
 */
 
 
@@ -32,8 +33,12 @@ public class MaximumSumContiguousSubArrayOfSizeK {
        int ans= maximumContiguousSubArraySum(arr,k);
         System.out.println(ans);
 
+        System.out.println(maxContiguousSubArraySumUsingSlidingWindow(arr,k));
+
 
     }
+
+
 
     private static int maximumContiguousSubArraySum(int[] arr, int k) {
 
@@ -51,5 +56,32 @@ public class MaximumSumContiguousSubArrayOfSizeK {
     return sum;
     }
 
+
+    private static int maxContiguousSubArraySumUsingSlidingWindow(int[] arr, int k) {
+
+        int len =arr.length;
+        int max_sum=Integer.MIN_VALUE;
+        int sum=0;
+        int i=0,j=0;
+
+        //{2, 5, 1, 8, 2, 9, 1}
+
+        while(j<len){
+            sum+=arr[j];
+           int window=j-i+1;
+            if(window<k){
+                j++;
+            } else if (window==k){
+                max_sum = Integer.max(max_sum,sum);
+                sum-=arr[i];
+                i++;
+                j++;
+            }
+
+        }
+
+        return max_sum;
+
+    }
 
 }
