@@ -45,7 +45,7 @@ public class MaximumSumContiguousSubArrayOfSizeK {
         int sum=0;
         int n=arr.length;
 
-        for(int i=0;i<n-k;i++){
+        for(int i=0;i<n-k+1;i++){
             int s=0;
             for (int j=i;j<i+k;j++){
                 s+=arr[j];
