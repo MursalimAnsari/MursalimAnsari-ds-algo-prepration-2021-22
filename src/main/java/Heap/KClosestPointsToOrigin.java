@@ -13,7 +13,7 @@ public class KClosestPointsToOrigin {
         int [][] points = {{2,1},{-2,-2}};
         int k = 1;
 
-       int [][] ans = kClosest(points , k);
+       int [][] ans = kClosestElements(points , k);
 
         for (int[] i : ans) {
             System.out.println("[" + i[0] + "," + i[1] + "]");
@@ -62,4 +62,27 @@ public class KClosestPointsToOrigin {
     }
 
 
+    // max Heap and lambda function...
+
+
+
+    public static int[][] kClosestElements(int[][] points, int K) {
+        PriorityQueue<int[]>maxHeap = new PriorityQueue<int[]>(
+                (p1, p2) -> p2[0] * p2[0] + p2[1] * p2[1] - p1[0] * p1[0] - p1[1] * p1[1]);
+        for (int[] p : points) {
+            maxHeap.offer(p);
+            if (maxHeap.size() > K) {
+                maxHeap.poll();
+            }
+        }
+        int size = Math.min(K, maxHeap.size());
+        int[][] res = new int[size][2];
+        int i = size;
+        while (!maxHeap.isEmpty()) {
+            res[--i] = maxHeap.poll();
+        }
+        return res;
+    }
 }
+
+
