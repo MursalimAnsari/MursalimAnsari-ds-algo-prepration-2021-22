@@ -6,25 +6,31 @@ public class ReverseArrayUsingRecursion {
     public static void main(String[] args) {
 
 
-        int [] arr = {1,3,8,5,3,6};
+//        int [] arr = {1,2,3,4,5};
+        int[] arr= {2,5,7,1};
         int i=0;
         int n=arr.length;
 
-        reverseArrayUsingRecursion(arr,i,n);
+        reverseArrayUsingRecursion(arr,i,n-1);
+        printArray(arr,n);
+
     }
 
     private static void reverseArrayUsingRecursion(int[] arr, int i, int n ) {
 
          //base case
-          if(i>=n/2) return;
+         if(i>=n) return;
 
-        swap(arr[i],arr[n-i-1]);
-        reverseArrayUsingRecursion(arr, i+1,n-i-2);
+         int temp= arr[i];
+         arr[i]=arr[n];
+         arr[n]=temp;
+
+        reverseArrayUsingRecursion(arr, i+1,n-i-1);
     }
 
-    private static void swap(int i, int i1) {
-        int temp =i;
-        i=i1;
-        i1=temp;
+    public static  void printArray(int[]arr, int n){
+        for (int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
