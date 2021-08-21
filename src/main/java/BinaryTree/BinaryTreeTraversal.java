@@ -12,23 +12,30 @@ package BinaryTree;
 
 import java.util.Stack;
 
-public class BinaryTreeRecursion {
+public class BinaryTreeTraversal {
 
     TreeNode root;
 
     public static void main(String[] args) {
 
-      BinaryTreeRecursion btr = new BinaryTreeRecursion();
+      BinaryTreeTraversal btr = new BinaryTreeTraversal();
       btr.createTree();
 //         inOrderTraversal(btr.root);
 //         System.out.println(" ");
-//         preOrderTraversal(btr.root);
-//        System.out.println(" ");
-//        postOrderTraversal(btr.root);
+//         System.out.println("PreOrder Recursive :");
+//            preOrderTraversal(btr.root);
+            System.out.println("Postorder recursive : ");
+            postOrderTraversal(btr.root);
+        System.out.println();
 
-        System.out.println("Iterative InOrder :");
-        inorderIterative(btr.root);
+//        System.out.println("Iterative InOrder :");
+//        inorderIterative(btr.root);
 
+//        System.out.println("Iterative PreOrder");
+//        preorderTraversalIterative(btr.root);
+
+        System.out.println("Post Order Iterative : " );
+        postOrderIterative(btr.root);
 
     }
 
@@ -124,5 +131,63 @@ public class BinaryTreeRecursion {
         }
 
     }
+
+    private static void preorderTraversalIterative(TreeNode root){
+
+        Stack<TreeNode> s = new Stack<>();
+
+        TreeNode current = root;
+
+        while(true){
+            while(current!=null){
+                System.out.print(current.data +" ");
+                s.push(current);
+                current = current.left;
+            }
+
+            if(s.isEmpty()) break;
+
+            current = s.pop();
+            current = current.right;
+
+        }
+    }
+
+    private static void postOrderIterative(TreeNode root){
+
+        // asked in goldman saches
+
+        Stack<TreeNode> s = new Stack<>();
+
+        TreeNode current= root;
+        TreeNode pre = null;
+
+        while(true){
+            while(current!=null){
+                s.push(current);
+                current = current.left;
+            }
+            if(s.isEmpty())break;
+
+            while (current==null && !s.isEmpty()){
+
+                current = s.peek();
+
+                if(current.right==null || current.right==pre){
+                    System.out.print(current.data +" ");
+                    s.pop();
+                    pre = current;
+                    current = null;
+                } else {
+                    current = current.right;
+                }
+
+            }
+
+        }
+
+    }
+
+
 }
 
