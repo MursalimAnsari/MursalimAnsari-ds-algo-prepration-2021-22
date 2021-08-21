@@ -10,6 +10,10 @@ package BinaryTree;
  */
 
 
+import sun.reflect.generics.tree.Tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinaryTreeTraversal {
@@ -20,22 +24,25 @@ public class BinaryTreeTraversal {
 
       BinaryTreeTraversal btr = new BinaryTreeTraversal();
       btr.createTree();
-//         inOrderTraversal(btr.root);
-//         System.out.println(" ");
-//         System.out.println("PreOrder Recursive :");
+//            inOrderTraversal(btr.root);
+//            System.out.println(" ");
+//            System.out.println("PreOrder Recursive :");
 //            preOrderTraversal(btr.root);
-            System.out.println("Postorder recursive : ");
-            postOrderTraversal(btr.root);
+//            System.out.println("Postorder recursive : ");
+//            postOrderTraversal(btr.root);
+//            System.out.println();
+
+//            System.out.println("Iterative InOrder :");
+//            inorderIterative(btr.root);
+
+//            System.out.println("Iterative PreOrder");
+//            preorderTraversalIterative(btr.root);
+        System.out.println("Level Order traversal : ");
+        levelOrderTraversal(btr.root);
         System.out.println();
 
-//        System.out.println("Iterative InOrder :");
-//        inorderIterative(btr.root);
-
-//        System.out.println("Iterative PreOrder");
-//        preorderTraversalIterative(btr.root);
-
-        System.out.println("Post Order Iterative : " );
-        postOrderIterative(btr.root);
+//        System.out.println("Post Order Iterative : " );
+//        postOrderIterative(btr.root);
 
     }
 
@@ -181,12 +188,31 @@ public class BinaryTreeTraversal {
                 } else {
                     current = current.right;
                 }
-
             }
-
         }
-
     }
+
+     private static void levelOrderTraversal(TreeNode root) {
+
+         // check root is null or not
+         if (root == null) return;
+
+         Queue<TreeNode> q = new LinkedList<>();
+
+         q.offer(root);
+
+         while (!q.isEmpty()) {
+
+             // create new node temp and assign root to temp
+
+             TreeNode temp = q.poll();
+
+             System.out.print(temp.data + " ");
+
+             if (temp.left != null) q.offer(temp.left);
+             if (temp.right != null) q.offer(temp.right);
+         }
+     }
 
 
 }
