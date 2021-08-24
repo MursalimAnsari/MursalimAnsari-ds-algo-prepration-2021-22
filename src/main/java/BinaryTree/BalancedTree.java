@@ -1,5 +1,26 @@
 package BinaryTree;
 
+/*
+
+        Given a binary tree, determine if it is height-balanced.
+
+        A binary tree in which the left and right subtrees of
+         every node differ in height by no more than 1.
+
+             1
+           /    \
+         2        2
+        /  \
+       3    3      height(left) for(1) = 3, height(right) = 1  =>  3-1 = 2
+      /  \         
+     4    4
+
+         Input: root = [1,2,2,3,3,null,null,4,4]
+         Output: false
+
+ */
+
+
 public class BalancedTree {
     TreeNode root;
 
