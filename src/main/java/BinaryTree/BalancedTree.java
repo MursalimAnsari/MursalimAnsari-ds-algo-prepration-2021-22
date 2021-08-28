@@ -12,7 +12,7 @@ package BinaryTree;
          2        2
         /  \
        3    3      height(left) for(1) = 3, height(right) = 1  =>  3-1 = 2
-      /  \         
+      /  \
      4    4
 
          Input: root = [1,2,2,3,3,null,null,4,4]
