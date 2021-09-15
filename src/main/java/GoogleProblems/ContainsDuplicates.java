@@ -70,7 +70,7 @@ public class ContainsDuplicates {
     private static boolean containsDuplicate(int[] nums) {
 
         int n = nums.length;
-        Arrays.sort(nums);
+        Arrays.sort(nums); // nlogn space
 
         if(nums.length == 0) return false;
 
@@ -81,8 +81,6 @@ public class ContainsDuplicates {
         }
         return false;
     }
-
-
 
   // Time Complexity  O(n)
   // Space Complexity O(n)
