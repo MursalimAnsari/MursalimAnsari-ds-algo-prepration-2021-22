@@ -18,7 +18,6 @@ public class GraphImplUsingAdjList {
     private static void bfstraversal(ArrayList<ArrayList<Integer>> adj, int src, int V) {
 
         //TIME COMPLEXITY  O(V+E)+O(V)~O(V+E)
-
         Queue<Integer> q = new LinkedList<>();
         boolean[] visited = new boolean[V];
 
