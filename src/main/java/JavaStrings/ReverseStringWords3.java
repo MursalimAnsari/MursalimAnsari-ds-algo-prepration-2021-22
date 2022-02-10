@@ -4,7 +4,7 @@ package JavaStrings;
 //reversed words Character: "doog dog"
 
 
-public class ReverseWordsInString3 {
+public class ReverseStringWords3 {
 
 
     public static void main(String[] args) {

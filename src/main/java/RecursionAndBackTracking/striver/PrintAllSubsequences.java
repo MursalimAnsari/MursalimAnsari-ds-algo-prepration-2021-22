@@ -1,4 +1,4 @@
-package RecursionAndBackTracking;
+package RecursionAndBackTracking.striver;
 
 /*
      Subsequence : A Subsequence is a sequence in which elements are in an order.

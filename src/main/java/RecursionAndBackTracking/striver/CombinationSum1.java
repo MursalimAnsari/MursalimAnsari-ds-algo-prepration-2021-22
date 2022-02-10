@@ -3,12 +3,23 @@ package RecursionAndBackTracking.striver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CombinationSum {
+
+/*
+
+   Leetcode Problem 39
+   Combination sum....
+
+
+
+ */
+
+public class CombinationSum1 {
 
     public static void main(String[] args) {
         int [] candidates = {2,3,6,7};
         int target = 7;
-        combinationSum(candidates,target);
+       List<List<Integer>> result = combinationSum(candidates,target);
+        System.out.println(result);
     }
 
     // Main Function
@@ -29,12 +40,14 @@ public class CombinationSum {
             return;
         }
 
+        //pick
         if(arr[index]<=target){
             ds.add(arr[index]);
             findCombinations(index,arr,target-arr[index],ans,ds);
             ds.remove(ds.size()-1);
         }
 
+        //non-pick
         findCombinations(index+1,arr,target,ans,ds);
 
     }

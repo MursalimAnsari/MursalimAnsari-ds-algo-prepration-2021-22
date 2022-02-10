@@ -1,18 +1,16 @@
-package RecursionAndBackTracking;
+package RecursionAndBackTracking.striver;
 
 /*
      Palindrome String or Number
      Example :  Str        --> madam
                strReverse  --> madam
                
-               hence it is palindrome string 
+               hence, it is palindrome string
 
 
  */
 
 public class PalindromeUsingRecursion {
-
-
 
 
 

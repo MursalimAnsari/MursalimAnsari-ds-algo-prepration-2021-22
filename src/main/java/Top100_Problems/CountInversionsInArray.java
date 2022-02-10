@@ -9,7 +9,7 @@ package Top100_Problems;
 
 Conditions given ...
  1.  Inversion Occurs  if(i<j && arr[i]>arr[j])
- 2.  Tells us the degree how usorted an array is
+ 2.  Tells us the degree how unsorted an array is
  3.  If array is already sorted then its inversion count will be 0.
  4.  If array is sorted in reversed order then its Inversion count will be maximum
 
@@ -65,7 +65,7 @@ public class CountInversionsInArray {
      return count;
     }
 
-       // Sove the problem Using MergeSort algorithm...
+       // Solve the problem Using MergeSort algorithm...
        private static int countInversionsUsingMergeSort(int[] arr) {
 
         return  countSubArrayInversion(arr,0, arr.length-1);

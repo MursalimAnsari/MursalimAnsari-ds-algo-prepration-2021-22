@@ -108,12 +108,5 @@ public class FrequencySort {
                     arr[k++]= data.value;
                 }
             }
-
-
     }
-
-
-
-
-
 }

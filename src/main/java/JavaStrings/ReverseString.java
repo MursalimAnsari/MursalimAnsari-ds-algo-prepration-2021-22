@@ -14,7 +14,6 @@ public class ReverseString {
         reverseStringUsingRecursion(str);
 
         // usingSrtring buffer class
-
         StringBuffer ans = reverseStringUsingStringBuffer(str);
         System.out.println(ans);
 
@@ -56,11 +55,5 @@ public class ReverseString {
 
         return res;
     }
-
-
-
-
-
-
 
 }

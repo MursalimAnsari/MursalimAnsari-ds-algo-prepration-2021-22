@@ -121,7 +121,7 @@ public class GraphImplUsingAdjList {
 
 
     public static void main(String[] args) {
-        int v= 6;
+        int v= 7;
 
         ArrayList<ArrayList<Integer>> adj_list = new ArrayList<ArrayList<Integer>>();
 
@@ -137,11 +137,23 @@ public class GraphImplUsingAdjList {
 //        addEdge(adj_list , 3, 4);
 //
 
-        addEdge(adj_list , 0, 1);
-        addEdge(adj_list , 0, 2);
-        addEdge(adj_list , 2, 3);
-        addEdge(adj_list , 4, 5);
+//        addEdge(adj_list , 0, 1);
+//        addEdge(adj_list , 0, 2);
+//        addEdge(adj_list , 2, 3);
+//        addEdge(adj_list , 4, 5);
 
+
+        addEdge(adj_list, 0,1);
+        addEdge(adj_list, 0,5);
+        addEdge(adj_list,1,4);
+        addEdge(adj_list, 1,2);
+        addEdge(adj_list, 2,3);
+        addEdge(adj_list, 2,6);
+        addEdge(adj_list, 3,6);
+        addEdge(adj_list, 4,0);
+        addEdge(adj_list, 5,4);
+        addEdge(adj_list,6 ,4);
+        addEdge(adj_list, 6,1);
 
 
 //        printGraph(adj_list);

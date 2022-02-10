@@ -1,4 +1,4 @@
-package RecursionAndBackTracking;
+package RecursionAndBackTracking.striver;
 
 import java.util.List;
 
