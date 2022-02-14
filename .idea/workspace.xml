@@ -5,44 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeMaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/LeftViewOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BitMasking/BasicBitOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashingProblems/CountDistinctElementsInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashingProblems/CountFrequencyOfElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashingProblems/HashmapImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashingProblems/UnionOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/FindingSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseStringWords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/SplitMethodInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/geeksforgeeks/easy/RemoveVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/geeksforgeeks/easy/ShuffleString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/InfiniteRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/Print1ToN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/Sum_Of_First_N_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PalindromeUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequencesSumEqualToK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Mursu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/FrequencySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/FrequencySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java8/LambdaWithList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java8/LambdaWithList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/CheckPalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/CheckPalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseWordsInString3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseStringWords3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/FibonacciNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/NQueensProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/NQueensProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/PrintNumbersSumToN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/ReverseArrayUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/ReverseArrayUsingRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Top100_Problems/CountInversionsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Top100_Problems/CountInversionsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsequenceSumEqualK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/SubsetsLeetCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/NQueensProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequencesSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequencesSumEqualToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +53,13 @@
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShuffleString">
-    <configuration name="CountFrequencyOfElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingProblems.CountFrequencyOfElements" />
+  <component name="RunManager" selected="Application.CombinationSum2">
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.CombinationSum2" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingProblems.*" />
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindingSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStrings.FindingSubString" />
+    <configuration name="PrintAllSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.PrintAllSubsequences" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStrings.geeksforgeeks.easy.RemoveVowels" />
-      <module name="PreprationInterview2021-22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaStrings.geeksforgeeks.easy.*" />
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingProblems.UnionOfArrays" />
+    <configuration name="SubsequenceSumEqualK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.SubsequenceSumEqualK" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingProblems.*" />
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.SubsetPrint" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum2" />
+        <item itemvalue="Application.SubsequenceSumEqualK" />
+        <item itemvalue="Application.SubsetPrint" />
+        <item itemvalue="Application.PrintAllSubsequences" />
         <item itemvalue="Application.ShuffleString" />
-        <item itemvalue="Application.RemoveVowels" />
-        <item itemvalue="Application.FindingSubString" />
-        <item itemvalue="Application.UnionOfArrays" />
-        <item itemvalue="Application.CountFrequencyOfElements" />
       </list>
     </recent_temporary>
   </component>

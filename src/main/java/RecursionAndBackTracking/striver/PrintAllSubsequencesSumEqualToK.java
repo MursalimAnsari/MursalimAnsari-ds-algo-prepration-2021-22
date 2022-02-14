@@ -46,7 +46,6 @@ public class PrintAllSubsequencesSumEqualToK {
     }
 
     // Return the only subsequence whose sum is k
-
     private static boolean onlySubsequenceWithSumK(int index, ArrayList<Integer> list, int s, int sum, int[] arr, int n) {
 
         if(index==n) {
