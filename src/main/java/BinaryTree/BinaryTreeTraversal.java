@@ -102,7 +102,6 @@ public class BinaryTreeTraversal {
         if (root == null) return;
 
         // root -left- right
-
         postOrderTraversal(root.left);
         postOrderTraversal(root.right);
         System.out.print(root.data + " ");

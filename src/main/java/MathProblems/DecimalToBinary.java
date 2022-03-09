@@ -4,7 +4,7 @@ public class DecimalToBinary {
 
     public static void main(String[] args) {
 
-        toBinary(5);
+        toBinary(20);
     }
 
     private static void toBinary(int num) {
@@ -13,10 +13,10 @@ public class DecimalToBinary {
        StringBuilder sb = new StringBuilder();
 
        while (num>0){
-           sb.append(num%2);
-           num /=2;
+           sb.append(num%8);
+           num /=8;
        }
-        System.out.println("number: "+ n + ", binary representation: " +sb.reverse().toString());
+        System.out.println("number: "+ n + ", octal representation: " +sb.reverse().toString());
 
     }
 

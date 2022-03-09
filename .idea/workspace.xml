@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsequenceSumEqualK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/dp/lcs/LongestCommonSubSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/SubsetsLeetCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/NQueensProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequencesSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/PrintAllSubsequencesSumEqualToK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MathProblems/DecimalToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathProblems/DecimalToBinary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +44,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="trusted.hosts" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSum2">
+  <component name="RunManager" selected="Application.HashmapImplementation">
     <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.CombinationSum2" />
       <module name="PreprationInterview2021-22" />
@@ -67,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.PrintAllSubsequences" />
+    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathProblems.DecimalToBinary" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
+          <option name="PATTERN" value="MathProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStrings.geeksforgeeks.easy.ShuffleString" />
+    <configuration name="HashmapImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashingProblems.HashmapImplementation" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaStrings.geeksforgeeks.easy.*" />
+          <option name="PATTERN" value="HashingProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.dp.lcs.LongestCommonSubSequence" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.dp.lcs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.SubsetPrint" />
-      <module name="PreprationInterview2021-22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashmapImplementation" />
+        <item itemvalue="Application.DecimalToBinary" />
+        <item itemvalue="Application.LongestCommonSubSequence" />
         <item itemvalue="Application.CombinationSum2" />
         <item itemvalue="Application.SubsequenceSumEqualK" />
-        <item itemvalue="Application.SubsetPrint" />
-        <item itemvalue="Application.PrintAllSubsequences" />
-        <item itemvalue="Application.ShuffleString" />
       </list>
     </recent_temporary>
   </component>
@@ -149,5 +147,15 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
