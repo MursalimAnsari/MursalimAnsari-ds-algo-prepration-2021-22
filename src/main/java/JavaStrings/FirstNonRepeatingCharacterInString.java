@@ -4,15 +4,16 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FirsNonRepeatingCharacterInString {
+public class FirstNonRepeatingCharacterInString {
+
 
 
     public static void main(String[] args) {
 
         String str = "abcab";
 
-//        int ans =  firstNonRepeatingCharcterBrute(str);
-//        System.out.println(ans);
+        int res =  firstNonRepeatingCharacterBrute(str);
+        System.out.println(res);
 
         int ans = firstNonRepeatingCharacterHashMap(str);
          if (ans!=-1){
@@ -47,7 +48,7 @@ public class FirsNonRepeatingCharacterInString {
       return -1;
     }
 
-    private static int firstNonRepeatingCharcterBrute(String str) {
+    private static int firstNonRepeatingCharacterBrute(String str) {
 
         for (int i=0; i<str.length();i++){
                boolean foundDuplicate = false;

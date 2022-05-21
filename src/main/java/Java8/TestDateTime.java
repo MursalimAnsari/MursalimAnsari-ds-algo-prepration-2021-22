@@ -1,4 +1,4 @@
-
+package Java8;
 
 import java.time.*;
 
@@ -49,7 +49,7 @@ import java.time.*;
         System.out.println(zi);   
 	    System.out.println();
 		
-		ZoneId zChina = ZoneId.of("America/Los_Angeles");
+		 ZoneId zChina = ZoneId.of("America/Los_Angeles");
 		 ZonedDateTime zt = ZonedDateTime.now(zChina);
 		 System.out.println(zt);
 	
