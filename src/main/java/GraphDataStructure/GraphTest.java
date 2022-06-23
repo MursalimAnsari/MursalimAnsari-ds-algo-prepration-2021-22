@@ -20,14 +20,17 @@ public class GraphTest {
 			int src = B[i][0];
 			int des = B[i][1];
 			adj[src].add(des);
-			// adj[des].add(src);
+			adj[des].add(src);
 		}
 		boolean[] visited = new boolean[A];
 		/************
 		 * DFS ************ int component = 0;
 		 * 
-		 * for (int i = 0; i < A; i++) { if (visited[i] == false) { dfs(adj, i,
-		 * visited); component += 1; } } System.out.println(component);
+		 * for (int i = 0; i < A; i++) {
+		 * if (visited[i] == false) { dfs(adj, i,visited); component += 1;
+		 * }
+		 *   }
+		 * System.out.println(component);
 		 ****************/
 
 		// BFS

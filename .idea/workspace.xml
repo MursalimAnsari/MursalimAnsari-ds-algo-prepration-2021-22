@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/geeksforgeeks/easy/AnagramFindProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon/knapsack/SubsetSumEqualToTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon1D/MaximumSumNonAdjacentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List_weighted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_Mat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_Mat_Weighted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/RodCutting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon1D/RodCutting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/Adjacency_Matrix_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/Adjacency_Matrix_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +62,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final Year Project 2021-22/CreativeScrapYard" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="trusted.hosts" />
   </component>
   <component name="RecentsManager">
@@ -57,13 +71,13 @@
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnagramFindProblem">
-    <configuration name="AnagramFindProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStrings.geeksforgeeks.easy.AnagramFindProblem" />
+  <component name="RunManager" selected="Application.Graph_Impl_Str_Adj_List">
+    <configuration name="GraphImplUsingAdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.GraphImplUsingAdjList" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaStrings.geeksforgeeks.easy.*" />
+          <option name="PATTERN" value="GraphDataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.CombinationSum2" />
+    <configuration name="Graph_Impl_Str_Adj_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_List" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
+          <option name="PATTERN" value="GraphDataStructure.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MathProblems.DecimalToBinary" />
+    <configuration name="Graph_Impl_Str_Adj_List_weighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_List_weighted" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MathProblems.*" />
+          <option name="PATTERN" value="GraphDataStructure.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashmapImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingProblems.HashmapImplementation" />
+    <configuration name="Graph_Impl_Str_Adj_Mat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_Mat" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingProblems.*" />
+          <option name="PATTERN" value="GraphDataStructure.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.dp.lcs.LongestCommonSubSequence" />
+    <configuration name="Graph_Impl_Str_Adj_Mat_Weighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_Mat_Weighted" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RecursionAndBackTracking.striver.dp.lcs.*" />
+          <option name="PATTERN" value="GraphDataStructure.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnagramFindProblem" />
-        <item itemvalue="Application.HashmapImplementation" />
-        <item itemvalue="Application.DecimalToBinary" />
-        <item itemvalue="Application.LongestCommonSubSequence" />
-        <item itemvalue="Application.CombinationSum2" />
+        <item itemvalue="Application.Graph_Impl_Str_Adj_List" />
+        <item itemvalue="Application.Graph_Impl_Str_Adj_List_weighted" />
+        <item itemvalue="Application.Graph_Impl_Str_Adj_Mat_Weighted" />
+        <item itemvalue="Application.Graph_Impl_Str_Adj_Mat" />
+        <item itemvalue="Application.GraphImplUsingAdjList" />
       </list>
     </recent_temporary>
   </component>

@@ -17,7 +17,7 @@ public class Adjacency_Matrix_Impl {
     public void addEdge(int src , int dest){
 
         adj_mat[src][dest]=1;
-       // adj_mat[dest][src]=1;
+        adj_mat[dest][src]=1;
         E++;
     }
 

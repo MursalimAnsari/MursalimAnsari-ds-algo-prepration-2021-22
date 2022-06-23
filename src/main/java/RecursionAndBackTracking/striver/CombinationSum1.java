@@ -35,6 +35,7 @@ public class CombinationSum1 {
 
         if(index==arr.length){
             if(target==0){
+                // deep copy
                 ans.add(new ArrayList<>(ds));
             }
             return;

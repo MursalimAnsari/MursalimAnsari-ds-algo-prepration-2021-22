@@ -1,4 +1,4 @@
-package DynamicProgramming.Striver;
+package DynamicProgramming.Striver.dpon1D;
 
 /*
     In this problem we are given with the length of rod N, and we have to divide the rod into n no of

@@ -11,7 +11,7 @@ public class GraphImplUsingAdjList {
 
         adj_list.get(u).add(v);
         //for undirected graph
-       //adj_list.get(v).add(u);
+        adj_list.get(v).add(u);
     }
 
 
@@ -33,14 +33,14 @@ public class GraphImplUsingAdjList {
                 int v = q.poll();
                 System.out.println(v);
 
-                for (int u : adj.get(v)) {
+                for (Integer u : adj.get(v)) {
                     if (visited[u] == false) {
                         q.add(u);
                         visited[u] = true;
                     }
                 }
             }
-        }
+          }
         }
     }
 
@@ -53,9 +53,7 @@ public class GraphImplUsingAdjList {
                      dfsRecursive(i,visited,adj);
                  }
              }
-
-
-    }
+        }
 
     private static void dfsRecursive(int src, boolean[] visited, ArrayList<ArrayList<Integer>>adj) {
 
@@ -98,15 +96,13 @@ public class GraphImplUsingAdjList {
                               visited[u] = true;
                               s.push(u);
 
-                          }
-                      }
+                           }
+                       }
+                   }
+                }
+             }
+           }
 
-                  }
-
-              }
-
-            }
-          }
 
     static void printGraph(ArrayList<ArrayList<Integer>>adj){
         for (int i = 0; i < adj.size(); i++) {
@@ -129,20 +125,6 @@ public class GraphImplUsingAdjList {
             adj_list.add(new ArrayList<Integer>());
         }
 
-//        addEdge(adj_list , 0, 1)
-//        addEdge(adj_list , 0, 2);
-//        addEdge(adj_list , 0, 3);
-//        addEdge(adj_list , 1, 2);
-//        addEdge(adj_list , 3, 2);
-//        addEdge(adj_list , 3, 4);
-//
-
-//        addEdge(adj_list , 0, 1);
-//        addEdge(adj_list , 0, 2);
-//        addEdge(adj_list , 2, 3);
-//        addEdge(adj_list , 4, 5);
-
-
         addEdge(adj_list, 0,1);
         addEdge(adj_list, 0,5);
         addEdge(adj_list,1,4);
@@ -157,7 +139,6 @@ public class GraphImplUsingAdjList {
 
 
 //        printGraph(adj_list);
-//
 //        System.out.println(adj_list.size());
 
         System.out.println("Bfs Traversal :" );
@@ -175,6 +156,5 @@ public class GraphImplUsingAdjList {
 
 
     }
-
 
 }
