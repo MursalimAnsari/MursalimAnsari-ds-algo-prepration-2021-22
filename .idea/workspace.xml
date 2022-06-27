@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon/knapsack/SubsetSumEqualToTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon1D/MaximumSumNonAdjacentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List_weighted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_Mat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_Mat_Weighted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/CycleDetectionUndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/RodCutting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DynamicProgramming/Striver/dpon1D/RodCutting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/Adjacency_Matrix_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/Adjacency_Matrix_Impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphImplUsingAdjList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/GraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/CombinationSum1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +59,13 @@
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Graph_Impl_Str_Adj_List">
-    <configuration name="GraphImplUsingAdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.GraphImplUsingAdjList" />
+  <component name="RunManager" selected="Application.CycleDetectionUndirectedGraph">
+    <configuration name="CycleDetectionUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingNinjas.Graph.CycleDetectionUndirectedGraph" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphDataStructure.*" />
+          <option name="PATTERN" value="CodingNinjas.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CycleDetectionUndirectedGraph" />
         <item itemvalue="Application.Graph_Impl_Str_Adj_List" />
         <item itemvalue="Application.Graph_Impl_Str_Adj_List_weighted" />
         <item itemvalue="Application.Graph_Impl_Str_Adj_Mat_Weighted" />
         <item itemvalue="Application.Graph_Impl_Str_Adj_Mat" />
-        <item itemvalue="Application.GraphImplUsingAdjList" />
       </list>
     </recent_temporary>
   </component>
