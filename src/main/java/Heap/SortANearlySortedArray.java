@@ -42,7 +42,6 @@ public class SortANearlySortedArray {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
         // add first k elements to minHeap
-
         for(int i=0;i<k+1;i++){
             minHeap.add(arr[i]);
         }
@@ -58,11 +57,10 @@ public class SortANearlySortedArray {
         }
 
         // pull all remaining elements from heap and add to array
-
         while(!minHeap.isEmpty()){
-            arr[index++]= minHeap.poll();     //minHeap.peek();
 
-
+            //minHeap.peek();
+            arr[index++]= minHeap.poll();
         }
        return arr;
     }

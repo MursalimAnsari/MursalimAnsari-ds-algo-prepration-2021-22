@@ -27,42 +27,43 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class LeftViewOfBinaryTree {
+public class RightViewOfBinaryTree {
 
     TreeNode root;
 
 
     public static void main(String[] args) {
 
-        LeftViewOfBinaryTree lv = new LeftViewOfBinaryTree();
+        RightViewOfBinaryTree rv = new RightViewOfBinaryTree();
 
-        lv.createTree();
+        rv.createTree();
 
         System.out.println("Left view of binary tree is : ");
-        ArrayList<Integer> ans =   leftView(lv.root);
+        ArrayList<Integer> ans =   rightView(rv.root);
         System.out.println(ans);
     }
 
-    private static ArrayList<Integer> leftView(TreeNode root) {
+    private static ArrayList<Integer> rightView(TreeNode root) {
 
         ArrayList<Integer> result = new ArrayList<>();
 
-        leftSideView(root, result ,0);
+        rightSideView(root, result ,0);
 
         return result;
     }
 
-    private static void leftSideView(TreeNode root, ArrayList<Integer> result, int currLevel) {
+    private static void rightSideView(TreeNode root, ArrayList<Integer> result, int currLevel) {
 
-    if (root == null) return;
+        if (root == null) return;
 
-    Queue<TreeNode> q= new LinkedList<>();
+        Queue<TreeNode> q= new LinkedList<>();
 
-    if (result.size()==currLevel){
-        result.add(root.data);
-        leftSideView(root.left,result,currLevel+1);
-        leftSideView(root.right,result,currLevel+1);
-      }
+        if (result.size()==currLevel){
+            result.add(root.data);
+            rightSideView(root.right,result,currLevel+1);
+            rightSideView(root.left,result,currLevel+1);
+
+        }
     }
 
     private void createTree(){

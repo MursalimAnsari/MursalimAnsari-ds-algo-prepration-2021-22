@@ -26,18 +26,18 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-class  Data implements Comparable<Data>{
+class  Pair implements Comparable<Pair>{
 
       int value , count , index;
 
-      public Data(int value, int count, int index) {
+      public Pair(int value, int count, int index) {
           this.value = value;
           this.count = count;
           this.index = index;
       }
 
       @Override
-      public int compareTo(Data o) {
+      public int compareTo(Pair o) {
           if(this.count!=o.count) {
               return o.count - this.count;
           }
@@ -55,9 +55,8 @@ public class FrequencySort {
 //        System.out.print(Arrays.toString(arr) +" ");
 
 
-     int[] ans  =  frequencySortUsingHeap(arr);
-
-      //  System.out.print(Arrays.toString(ans) +" ");
+      int[] ans  =  frequencySortUsingHeap(arr);
+      //System.out.print(Arrays.toString(ans) +" ");
 
     }
 
@@ -70,7 +69,8 @@ public class FrequencySort {
             map.put(arr[i], map.getOrDefault(arr[i] , 0)+1);
 
         }
-       // System.out.println(map.entrySet());
+
+        // System.out.println(map.entrySet());
 
         // initialize a max Heap
         PriorityQueue<Map.Entry<Integer,Integer>>
@@ -93,17 +93,17 @@ public class FrequencySort {
         }
 
 
-        Map<Integer,Data> map = new HashMap<>();
+        Map<Integer,Pair> map = new HashMap<>();
 
         for (int i=0;i<arr.length;i++){
-            map.putIfAbsent(arr[i], new Data(arr[i],0,i));
+            map.putIfAbsent(arr[i], new Pair(arr[i],0,i));
              map.get(arr[i]).count++;
         }
 
-      List<Data> values = map.values().stream().sorted().collect(Collectors.toList());
+      List<Pair> values = map.values().stream().sorted().collect(Collectors.toList());
 
         int k =0;
-            for(Data data: values){
+            for(Pair data: values){
                 for (int j=0; j<data.count; j++){
                     arr[k++]= data.value;
                 }

@@ -10,8 +10,6 @@ package BinaryTree;
  */
 
 
-import sun.reflect.generics.tree.Tree;
-
 import java.util.*;
 
 public class BinaryTreeTraversal {
@@ -178,8 +176,7 @@ public class BinaryTreeTraversal {
 
     private static void postOrderIterative(TreeNode root) {
 
-        // asked in goldman saches
-
+        // asked in goldman sachs
         Stack<TreeNode> s = new Stack<>();
 
         TreeNode current = root;
@@ -275,7 +272,7 @@ public class BinaryTreeTraversal {
 
         q.add(root);
 
-        while(!q.isEmpty()){
+           while(!q.isEmpty()){
             int size = q.size();
 
             List<Integer> currentLevel = new ArrayList<>();

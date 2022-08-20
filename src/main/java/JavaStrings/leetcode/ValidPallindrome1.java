@@ -1,13 +1,5 @@
 package JavaStrings.leetcode;
 
-
-
-
-
-
-
-
-
 public class ValidPallindrome1 {
 
 

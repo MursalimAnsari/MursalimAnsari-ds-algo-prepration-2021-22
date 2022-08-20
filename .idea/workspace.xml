@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodingNinjas/Graph/CycleDetectionUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/RightViewOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Strongly_Connected_Components_Kosaraju_Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Topological_Sorting_DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heap/Heap_Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/EmployeeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/Immutable_Class_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/Lambda_Test_Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/Stream_Filter_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/BinaryTreeTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/DiameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/LeftViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/LeftViewOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryTree/MaximumHeightOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree/MaximumHeightOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List_weighted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphDataStructure/striver/Graph_Impl_Str_Adj_List_weighted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HashingProblems/CountDistinctElementsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashingProblems/CountDistinctElementsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/FrequencySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/FrequencySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/HeapImpleUsingPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/HeapImpleUsingPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/KClosestPointsToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/KClosestPointsToOrigin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/SortANearlySortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/SortANearlySortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/CheckPalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/CheckPalindromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseStringWords2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseStringWords2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/leetcode/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/leetcode/FindAllAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/leetcode/ValidPallindrome1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/leetcode/ValidPallindrome1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100_Problems/CountInversionsInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Top100_Problems/CountInversionsInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100_Problems/MaximumContiguousSubArraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Top100_Problems/MaximumContiguousSubArraySum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +75,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final Year Project 2021-22/CreativeScrapYard" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="trusted.hosts" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CycleDetectionUndirectedGraph">
-    <configuration name="CycleDetectionUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingNinjas.Graph.CycleDetectionUndirectedGraph" />
+  <component name="RunManager" selected="Application.RightViewOfBinaryTree">
+    <configuration name="FindAllAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStrings.leetcode.FindAllAnagrams" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodingNinjas.Graph.*" />
+          <option name="PATTERN" value="JavaStrings.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph_Impl_Str_Adj_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_List" />
+    <configuration name="FindingSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStrings.FindingSubString" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphDataStructure.striver.*" />
+          <option name="PATTERN" value="JavaStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph_Impl_Str_Adj_List_weighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_List_weighted" />
+    <configuration name="LeftViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LeftViewOfBinaryTree" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphDataStructure.striver.*" />
+          <option name="PATTERN" value="BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph_Impl_Str_Adj_Mat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_Mat" />
+    <configuration name="ReverseStringWords2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStrings.ReverseStringWords2" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphDataStructure.striver.*" />
+          <option name="PATTERN" value="JavaStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graph_Impl_Str_Adj_Mat_Weighted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDataStructure.striver.Graph_Impl_Str_Adj_Mat_Weighted" />
+    <configuration name="RightViewOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.RightViewOfBinaryTree" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GraphDataStructure.striver.*" />
+          <option name="PATTERN" value="BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CycleDetectionUndirectedGraph" />
-        <item itemvalue="Application.Graph_Impl_Str_Adj_List" />
-        <item itemvalue="Application.Graph_Impl_Str_Adj_List_weighted" />
-        <item itemvalue="Application.Graph_Impl_Str_Adj_Mat_Weighted" />
-        <item itemvalue="Application.Graph_Impl_Str_Adj_Mat" />
+        <item itemvalue="Application.RightViewOfBinaryTree" />
+        <item itemvalue="Application.LeftViewOfBinaryTree" />
+        <item itemvalue="Application.FindAllAnagrams" />
+        <item itemvalue="Application.ReverseStringWords2" />
+        <item itemvalue="Application.FindingSubString" />
       </list>
     </recent_temporary>
   </component>

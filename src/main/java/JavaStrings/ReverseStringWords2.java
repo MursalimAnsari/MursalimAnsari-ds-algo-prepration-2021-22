@@ -15,14 +15,19 @@ public class ReverseStringWords2 {
 
     public static void main(String[] args) {
         String str = "  hello this is my string    ";
-        int len = str.length();
+        //  int len = str.length();
 
 
 
         String result = "";
-         result += reverseWordsUsingStack(str);
+        result += reverseWordsUsingStack(str);
         System.out.println(result.trim());
+
+        String output=  reverseWords(str);
+        System.out.println(output.trim());
+
     }
+
 
 
     private static String  reverseWordsUsingStack(String str) {
@@ -37,10 +42,10 @@ public class ReverseStringWords2 {
             if (str.charAt(i) == ' ') {
                 if (temp.length() > 0)
                     st.push(temp);
-                temp = "";
-            } else {
-                temp = temp + str.charAt(i);
+                     temp = "";
 
+                } else {
+                temp = temp + str.charAt(i);
             }
         }
 

@@ -108,7 +108,6 @@ public class MaximumHeightOfBinaryTree {
 
             // the depth of the level being processed
             currDepth++;
-
             int size = queue.size();
             for(int i=0; i< size; i++) {
 
@@ -127,8 +126,5 @@ public class MaximumHeightOfBinaryTree {
 
         return currDepth;
     }
-
-
-
 
 }

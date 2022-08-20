@@ -19,6 +19,8 @@ package JavaStrings.leetcode;
 
  */
 
+// SLIDING WINDOW PROBLEM
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,11 +31,11 @@ public class FindAllAnagrams {
     public static void main(String[] args) {
 
 
-        String s = "abcabcabc";
-        String p = "abc";
+        String string = "baccbabcac";
+        String pattern = "abc";
 
 
-        List<Integer> ans = findAnagrams(s, p);
+        List<Integer> ans = findAnagrams(string, pattern);
         System.out.println(ans);
 
     }
@@ -56,6 +58,7 @@ public class FindAllAnagrams {
 
         //storing the frequencies of chars of string p in count array.
         for(char i:p.toCharArray()) count[i-'a']++;
+
         while(r < n){
 
             //storing the count of current char at index right in curCount array.

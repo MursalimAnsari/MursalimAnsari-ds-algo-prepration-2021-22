@@ -3,7 +3,7 @@ package BinaryTree;
 public class DiameterOfBinaryTree {
 
     TreeNode root;
-   static int max =0;
+    static int max =0;
 
 
     public static void main(String[] args) {

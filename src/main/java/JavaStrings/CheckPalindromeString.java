@@ -7,15 +7,15 @@ public class CheckPalindromeString {
 
         String str = "abcdcba";
 
-//        boolean res =checkPallindrom(str);
+//        boolean res =checkPalindrome(str);
 //        System.out.println(res);
 
-        boolean res = checkPallindromUsingTwoPointers(str);
+        boolean res = checkPalindromeUsingTwoPointers(str);
         System.out.println(res);
 
     }
 
-    private static boolean checkPallindromUsingTwoPointers(String str) {
+    private static boolean checkPalindromeUsingTwoPointers(String str) {
 
         int n = str.length()-1;
         int i = 0;
@@ -33,7 +33,7 @@ public class CheckPalindromeString {
         return true;
     }
 
-    private static boolean checkPallindrom(String str) {
+    private static boolean checkPalindrome(String str) {
 
 
      int len = str.length();

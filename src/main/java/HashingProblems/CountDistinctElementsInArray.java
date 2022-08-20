@@ -1,7 +1,5 @@
 package HashingProblems;
 
-import javafx.scene.effect.SepiaTone;
-
 import java.util.*;
 
 public class CountDistinctElementsInArray {

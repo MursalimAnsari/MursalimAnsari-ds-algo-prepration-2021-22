@@ -12,10 +12,10 @@ import java.util.PriorityQueue;
  *       elements : {3,6,4,2,5,1,7,9}
  *
  *   maxHeap =======     9
- *                   /        \
-                   7           6
-*               /     \     /      \
-*               5      3    1        4
+ *                   /      \
+                   7          6
+*               /    \      /   \
+*               5      3    1    4
 *            /
 *           2
 *
