@@ -44,9 +44,7 @@ public class CeilingAndFloorElement {
                 s = mid+1;
             }
         }
-
         return s;
-
     }
 
 
@@ -54,7 +52,6 @@ public class CeilingAndFloorElement {
 
         int s = 0;
         int e = nums.length-1;
-
 
         if(target>nums[nums.length-1]){
             return -1;
@@ -71,10 +68,7 @@ public class CeilingAndFloorElement {
                 s = mid+1;
             }
         }
-
         return e;
-
     }
-
 
 }

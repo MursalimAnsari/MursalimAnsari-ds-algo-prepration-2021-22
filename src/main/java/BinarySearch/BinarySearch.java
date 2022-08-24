@@ -8,10 +8,10 @@ public class BinarySearch {
 
         int[] arr = {2,3,4,5,6,7,8,9,11,33,45};
           //int target = 9;
-          int target = 6;
+          int target = 8;
 
-//        int ans = binarySearchIterative(arr , target);
-//        System.out.println(ans);
+        // int ans = binarySearchIterative(arr , target);
+       //  System.out.println(ans);
         int s= 0;
         int e = arr.length-1;
 
@@ -20,7 +20,6 @@ public class BinarySearch {
 
 
     }
-
 
 
     // Recursive Solution
