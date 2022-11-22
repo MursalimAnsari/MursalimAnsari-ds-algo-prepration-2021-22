@@ -7,15 +7,15 @@ public class ReverseString {
 
         String str = "abcd";
 
-//       String ans=  reverseStringUsingIterator(str);
-//        System.out.println(ans);
+       String ans=  reverseStringUsingIterator(str);
+        System.out.println(ans);
 
 
         reverseStringUsingRecursion(str);
 
-        // usingSrtring buffer class
-        StringBuffer ans = reverseStringUsingStringBuffer(str);
-        System.out.println(ans);
+        // using String buffer class
+//        StringBuffer ans = reverseStringUsingStringBuffer(str);
+//        System.out.println(ans);
 
     }
 
@@ -47,7 +47,7 @@ public class ReverseString {
 
         String res = "";
 
-        for (int i=len-1; i>=0; i--){
+        for(int i=str.length();i>=0;i--){
 
             res += str.charAt(i);
 

@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0008eef-da23-4f13-a659-52bff9032ed6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/streams/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/streams/JavaStreamsPrograms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/streams/StreamProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/MyName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/MyNameHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/OverloadingConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/CheckPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/EqualsAndEqualOperatorDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/FindAllPrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/FindEvenOddCountInNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/immutable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewquestions/immutable/TestImmutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/ExecutorServiceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/MultiThreadingUsingJava8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/AbstractClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/Myclass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStrings/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/FibonacciNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/ReverseArrayUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/ReverseArrayUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RecursionAndBackTracking/striver/SubsetPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +80,13 @@
       <recent name="BitMasking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamProblems">
-    <configuration name="JavaStreamsPrograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.streams.JavaStreamsPrograms" />
+  <component name="RunManager" selected="Application.FibonacciNumber">
+    <configuration name="AbstractClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.AbstractClassDemo" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.streams.*" />
+          <option name="PATTERN" value="oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNameHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewquestions.MyNameHelper" />
+    <configuration name="ExecutorServiceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreadingconcepts.ExecutorServiceRunner" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewquestions.*" />
+          <option name="PATTERN" value="multithreadingconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverloadingConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewquestions.OverloadingConcept" />
+    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndBackTracking.striver.FibonacciNumber" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewquestions.*" />
+          <option name="PATTERN" value="RecursionAndBackTracking.striver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestLetterGreaterThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.SmallestLetterGreaterThanTarget" />
+    <configuration name="LambdaWithList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.LambdaWithList" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="Java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.streams.StreamProblems" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStrings.ReverseString" />
       <module name="PreprationInterview2021-22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.streams.*" />
+          <option name="PATTERN" value="JavaStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamProblems" />
-        <item itemvalue="Application.MyNameHelper" />
-        <item itemvalue="Application.OverloadingConcept" />
-        <item itemvalue="Application.JavaStreamsPrograms" />
-        <item itemvalue="Application.SmallestLetterGreaterThanTarget" />
+        <item itemvalue="Application.FibonacciNumber" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.AbstractClassDemo" />
+        <item itemvalue="Application.LambdaWithList" />
+        <item itemvalue="Application.ExecutorServiceRunner" />
       </list>
     </recent_temporary>
   </component>

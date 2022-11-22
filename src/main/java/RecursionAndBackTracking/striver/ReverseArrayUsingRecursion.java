@@ -5,8 +5,7 @@ public class ReverseArrayUsingRecursion {
 
     public static void main(String[] args) {
 
-
-//        int [] arr = {1,2,3,4,5};
+        // int [] arr = {1,2,3,4,5};
         int[] arr= {2,5,7,1};
         int i=0;
         int n=arr.length;
@@ -14,12 +13,7 @@ public class ReverseArrayUsingRecursion {
         reverseArrayUsingRecursion(arr,i,n-1);
         printArray(arr,n);
 
-
-
     }
-
-
-
 
     private static void reverseArrayUsingRecursion(int[] arr, int i, int n ) {
 

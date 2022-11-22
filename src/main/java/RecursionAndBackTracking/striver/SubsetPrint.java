@@ -35,6 +35,7 @@ public class SubsetPrint {
             for (int it : list){
                 System.out.print(it +" ");
             }
+
             if (list.size()==0) {
                 System.out.println(list);
             }
@@ -46,6 +47,7 @@ public class SubsetPrint {
         // pick code
         list.add(nums[index]);
         findSubsets(index+1,list,nums,size);
+
         //backtrack
         list.remove(list.size()-1);
 
@@ -84,11 +86,11 @@ public class SubsetPrint {
 
         List<List<Integer>> subsets = new ArrayList();
 
-        for (int mask = 0; mask < subset_count; ++mask) {
+        for (int x = 0; x < subset_count; ++x) {
             List<Integer> subset = new ArrayList();
 
             for (int i = 0; i < n; ++i) {
-                if (((mask >> i) & 1) != 0) {
+                if (((x >> i) & 1) != 0) {
                     subset.add(nums[i]);
                 }
             }
