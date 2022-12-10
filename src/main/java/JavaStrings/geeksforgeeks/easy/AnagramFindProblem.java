@@ -18,7 +18,9 @@ package JavaStrings.geeksforgeeks.easy;
  */
 
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Locale;
 
 public class AnagramFindProblem {
 
@@ -54,8 +56,6 @@ public class AnagramFindProblem {
     }
 
     // 2nd method to find anagram
-
-
 
 
 }

@@ -74,6 +74,7 @@ public class ReverseStringWords2 {
             while(i>=0 && str.charAt(i)== ' ')
 
                 i--;
+
             int j = i;
             if(i<0)break;
 
@@ -89,5 +90,9 @@ public class ReverseStringWords2 {
         }
         return ans;
     }
+
+
+
+
 
 }

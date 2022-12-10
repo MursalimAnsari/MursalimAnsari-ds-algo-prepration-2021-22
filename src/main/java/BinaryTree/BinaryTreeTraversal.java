@@ -34,16 +34,16 @@ public class BinaryTreeTraversal {
 //        System.out.println("Iterative PreOrder");
 //        preorderTraversalIterative(btr.root);
 
-//        System.out.println("Level Order traversal : ");
-//        levelOrderTraversal(btr.root);
-//        System.out.println();
+        System.out.println("Level Order traversal : ");
+        levelOrderTraversal(btr.root);
+        System.out.println();
 
 //        System.out.println("Post Order Iterative : " );
 //        postOrderIterative(btr.root);
 
 
-        System.out.println("Reverse Level Order traversal: ");
-        reverseLevelOrderTraversal(btr.root);
+//        System.out.println("Reverse Level Order traversal: ");
+//        reverseLevelOrderTraversal(btr.root);
 
 
     }
