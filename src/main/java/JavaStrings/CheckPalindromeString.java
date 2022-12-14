@@ -50,11 +50,7 @@ public class CheckPalindromeString {
 
      if (rev.equals(str)) return true;
 
-     return false;
+       return false;
     }
-
-
-
-
 
 }
