@@ -1,7 +1,9 @@
 package linkedlist;
 
 
-public class LinkedListImplementation {
+import java.util.List;
+
+public class LinkedListManager {
 
    static ListNode head;
 
@@ -20,19 +22,102 @@ public class LinkedListImplementation {
 
     public static void main(String[] args) {
 
-          LinkedListImplementation list = new LinkedListImplementation();
+          LinkedListManager list = new LinkedListManager();
 
-        // list.head = new ListNode(0);
-
+          // adding elements at first position in linked list
           list.addAtFirst(20);
           list.addAtFirst(10);
 
-
+          // adding elements at last position in linked list
           list.addAtLast(30);
           list.addAtLast(40);
+          list.addAtLast(50);
+          list.addAtLast(60);
+          list.addAtLast(70);
 
           list.printList();
+          System.out.println();
 
+//          list.insertAtPosition(2, 5);
+//          list.printList();
+
+//       ListNodevoid result=  list.findMiddleNode(head);
+//        System.out.println(result.val);
+
+          reverseLinkedList();
+          list.printList();
+    }
+
+    private static void reverseLinkedList( ) {
+
+         //valid solution
+        // head->1->2->3->4->5->6->7->null
+
+          ListNode prev= head;
+          ListNode curr= head.next;
+
+          while(curr!=null){
+
+              ListNode next= curr.next;
+
+              curr.next = prev;
+
+              //update
+              prev = curr;
+              curr = next;
+
+          }
+
+          // base
+          head.next=null;
+          head = prev;
+
+       // leetcode ::  return head
+
+      }
+
+    private ListNode findMiddleNode(ListNode head) {
+
+        // head->1->2->3->4->5->6->7->null
+
+         if(head==null){
+             return null;
+         }
+
+         if(head.next==null){
+             return head;
+         }
+
+         ListNode slow=head, fast= head.next;
+
+         while(fast!=null && fast.next!=null){
+
+             fast= fast.next.next;
+             slow= slow.next;
+         }
+
+         return slow;
+      }
+
+    private void insertAtPosition(int position, int val) {
+
+          int count = position-1;
+          ListNode node = new ListNode(val);
+
+          ListNode dummy = head;
+
+          while(count>1){
+              dummy = dummy.next;
+              count--;
+          }
+
+          ListNode temp;
+          //  head->1->2->3->4->null
+          // pos =2, val =5
+
+          temp =dummy.next;
+          dummy.next =node;
+          node.next =temp;
 
     }
 
