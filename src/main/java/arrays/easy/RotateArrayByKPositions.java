@@ -1,6 +1,6 @@
 package arrays.easy;
 
-public class RotateArrayCyclically {
+public class RotateArrayByKPositions {
 
     public static void main(String[] args) {
 
