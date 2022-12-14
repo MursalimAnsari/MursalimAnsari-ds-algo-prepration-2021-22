@@ -68,8 +68,7 @@ public class MaximumContiguousSubArraySum {
       }
 
 
-      // we can find max sum using only to nested loops..
-
+    // we can find max sum using only to nested loops..
     private static int maxContiguousSubArraySumUsingTwoLoops(int[] arr) {
          int n=arr.length;
         int[] curr_sum= new int[n+1];
@@ -105,11 +104,13 @@ public class MaximumContiguousSubArraySum {
 
         for (int value : arr) {
             curr_sum += value;
+
+            max_sum = Math.max(curr_sum, max_sum);
+
             if (curr_sum < 0) {
                 curr_sum = 0;
             }
 
-            max_sum = Math.max(curr_sum, max_sum);
         }
         return  max_sum;
     }
@@ -117,8 +118,6 @@ public class MaximumContiguousSubArraySum {
     // Now we can use Divide and conquer technique to solve this problem
     // base case: left==right return arr[left]
     // otherwise break the array int left sub array and right sub array
-
-
     private static int maximumSubArraySumUsingDivideAndConquer(int[] arr, int start, int end) {
 
       if(start==end)
