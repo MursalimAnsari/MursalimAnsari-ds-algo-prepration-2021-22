@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4763251-d353-4b9c-ac8c-de62c198ce62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singletonpattern/BillPughMethodSingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singletonpattern/SingletonBasicImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singletonpattern/SingletonDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singletonpattern/SingletonUsingStaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/singletonpattern/TestSingletonWithStaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/Greet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/Thread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oops/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/MultiThreadingUsingJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/MultiThreadingUsingJava8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreadingconcepts/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Top100_Problems/CountInversionsInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Top100_Problems/CountInversionsInArray.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2caq6oj6dwnm3ZI95R26mdlT2gh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MultiThreadingUsingJava8.executor": "Run",
+    "Application.SingletonDriver.executor": "Run",
+    "Application.SingletonEagerInitialization.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestSingletonWithStaticBlock.executor": "Run",
+    "Application.ThreadDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MursalimAnsari-ds-algo-prepration-2021-22",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.SingletonDriver">
+    <configuration name="MultiThreadingUsingJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreadingconcepts.MultiThreadingUsingJava8" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreadingconcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonBasicImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singletonpattern.SingletonBasicImplementation" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singletonpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singletonpattern.SingletonDriver" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singletonpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.Test" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSingletonWithStaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singletonpattern.TestSingletonWithStaticBlock" />
+      <module name="PreprationInterview2021-22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singletonpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SingletonDriver" />
+        <item itemvalue="Application.TestSingletonWithStaticBlock" />
+        <item itemvalue="Application.SingletonBasicImplementation" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MultiThreadingUsingJava8" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-4caba194b151-9f4ef98c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4763251-d353-4b9c-ac8c-de62c198ce62" name="Changes" comment="" />
+      <created>1708359867208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708359867208</updated>
+    </task>
+    <servers />
+  </component>
+</project>

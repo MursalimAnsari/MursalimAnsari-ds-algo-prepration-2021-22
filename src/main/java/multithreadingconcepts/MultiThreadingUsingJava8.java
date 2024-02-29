@@ -20,6 +20,8 @@ public class MultiThreadingUsingJava8 {
 
     Thread t1= new Thread(r,"mursu");
     Thread t2= new Thread(r, "anu");
+    t1.start();
+    t2.start();
 
     }
 
